@@ -16,9 +16,10 @@
     "app:build": "npm run build:for:electron && npm run electron:builder"
   },
   "dependencies": {
+    "@plick/electron-pos-printer": "^1.3.0",
     "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
-    "electron-pos-printer": "^1.3.7",
+    "node-thermal-printer": "^4.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "wait-on": "^7.2.0"

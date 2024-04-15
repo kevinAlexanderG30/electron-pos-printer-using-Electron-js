@@ -34,7 +34,7 @@ const Formulario = () => {
       {/* Mostrar la respuesta del backend */}
       {respuesta && <p>{respuesta}</p>}
       <input type="text" name="nombre" value={datos.nombre} onChange={handleChange} placeholder="Nombre" />
-      <input type="email" name="email" value={datos.email} onChange={handleChange} placeholder="Email" />
+      {/*<input type="email" name="email" value={datos.email} onChange={handleChange} placeholder="Email" />*/}
       <button type="submit">Enviar</button>
     </form>
   );
