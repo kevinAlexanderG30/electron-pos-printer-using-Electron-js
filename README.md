@@ -18,6 +18,11 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Using @plick/electron-pos-printer
+I have used this library, where you can print on printers, I have used an EPSON model TM-U220, using html for printer
+-[@plick/electron-pos-printer](https://socket.dev/npm/package/@plick/electron-pos-printer) Pos Printer Library
+
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
